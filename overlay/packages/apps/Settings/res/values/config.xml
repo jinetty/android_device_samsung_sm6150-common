@@ -19,4 +19,9 @@
     <!-- Whether to show Connected MAC Randomization in Developer Options
          as not all devices can support dynamic MAC address change.  -->
     <bool name="config_wifi_support_connected_mac_randomization">true</bool>
+
+    <!-- The radius of the enrollment progress bar, in dp -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">
+        100
+    </integer>
 </resources>
